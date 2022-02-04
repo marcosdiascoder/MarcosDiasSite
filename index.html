@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcos Dias | Desenvolvedor Web e Designer Gráfico</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/logo-sem-fundo.png"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="imagem">
+            <img src="assets/logo-sem-fundo.png" alt="Logo Marcos Dias">
+        </div>
+        <div class="menu">
+            <nav>
+                <a href="#parte1">Sobre</a>
+                <a href="#parte2">Projetos</a>
+                <a href="#parte3">Formações</a>
+                <a href="#parte4">Contatos</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="parte1" id="parte1">
+        <div class="texto">
+            <h1>Olá, me chamo<br>
+                Marcos Dias<br>
+                Desenvolvedor Front End e Designer Gráfico. </h1>
+                <button>Instagram</button>
+        </div>
+        <div class="imagem">
+            <img src="assets/programador.svg" alt="Programador SVG" width="400px" height="600px" class="img1">
+        </div>
+    </section>
+
+    <section class="parte2" id="parte2">
+        <div class="cards">
+            <div class="card1">
+                <h2>Kim+</h2>
+                <span>Site recriado para estudos. Direitos reservados ao Kim.</span>
+                <a href="https://imgur.com/a/oBiRupT" target="_blank"><button>ACESSAR</button></a>
+            </div>
+            <div class="card2">
+                <h2>Cleide Store</h2>
+                <span>Site comercial feito para venda de roupas e acessórios.</span>
+                <a href="#" target="_blank"><button>ACESSAR</button></a>
+            </div>
+            <div class="card3">
+                <h2>Painel Dashboard</h2>
+                <span>Painel Dashboard. Usa um sistema chamado CRUD.</span>
+                <a href="https://imgur.com/DwPk6r0" target="_blank"><button>ACESSAR</button></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="parte3" id="parte3">
+        <img src="assets/html.png" alt="Formação" class="h">
+        <img src="assets/css.png" alt="Formação" class="c">
+        <img src="assets/js.png" alt="Formação" class="j">
+        <img src="assets/php.png" alt="Formação" class="p">
+    </section>
+
+    <footer class="rodape" id="parte4">
+        <div class="texto">
+            <span>Todos os direitos reservados para<br> Marcos Dias Programador©</span>
+        </div>
+
+        <div class="icones">
+            <a href="https://www.linkedin.com/in/marcos-dias-32ab1945/"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="https://www.instagram.com/marcosdias.com.br/"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="#"><i class="fas fa-envelope-square fa-2x"></i></a>
+        </div>
+    </footer>
+
+    <script src="vanilla.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".img1"), {
+            max: 25,
+            speed: 400
+        });
+        
+        //It also supports NodeList
+        VanillaTilt.init(document.querySelectorAll(".img1"));
+    </script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".card1"), {
+            max: 25,
+            speed: 400
+        });
+        
+        //It also supports NodeList
+        VanillaTilt.init(document.querySelectorAll(".card1"));
+    </script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".card2"), {
+            max: 25,
+            speed: 400
+        });
+        
+        //It also supports NodeList
+        VanillaTilt.init(document.querySelectorAll(".card2"));
+    </script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".card3"), {
+            max: 25,
+            speed: 400
+        });
+        
+        //It also supports NodeList
+        VanillaTilt.init(document.querySelectorAll(".card3"));
+    </script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".h"), {
+            max: 25,
+            speed: 400
+        });
+        
+        //It also supports NodeList
+        VanillaTilt.init(document.querySelectorAll(".c"));
+    </script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".j"), {
+            max: 25,
+            speed: 400
+        });
+        
+        //It also supports NodeList
+        VanillaTilt.init(document.querySelectorAll(".j"));
+    </script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelector(".p"), {
+            max: 25,
+            speed: 400
+        });
+        
+        //It also supports NodeList
+        VanillaTilt.init(document.querySelectorAll(".p"));
+    </script>
+</body>
+</html>
